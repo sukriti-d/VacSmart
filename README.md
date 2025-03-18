@@ -19,22 +19,26 @@ VacSmart is a machine learning-based web application that predicts an individual
 
 ## Project Structure
 ```
-analyticaZ/
+
 ├── src/
 │   ├── app.py              # Main application file
 │   ├── data/               # Dataset directory
 │   │   └── training_set_features.csv
+│   │   └── test_set_features.csv
+│   │   └── training_set_labels.csv
 │   └── models/             # Trained models
 │       ├── h1n1_model.pkl
 │       └── seasonal_model.pkl
 ├── requirements.txt
+├── submission.csv
+├── vaccine_prediction.ipynb
 └── README.md
 ```
 
 ## Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/vacsmart.git
+git clone https://github.com/sukriti-d/vacsmart.git
 cd vacsmart
 ```
 
@@ -105,7 +109,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Data source: National 2009 H1N1 Flu Survey (NHFS)
 - Streamlit for the web framework
 - XGBoost for the machine learning models
-
-## Contact
-Your Name - [@yourusername](https://twitter.com/yourusername)
-Project Link: [https://github.com/yourusername/vacsmart](https://github.com/yourusername/vacsmart)
+## Made for AnalyticsX (Fluxus'25 IIT INDORE)
